@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-// ===================== Queue =====================
+//  Queue 
 class Queue {
     private final LinkedList<String> list = new LinkedList<>();
 
@@ -188,7 +188,7 @@ class HashTable {
 }
 
 // ===================== Main =====================
-public class Main {
+class Main {
 
     // Operator precedence
     static int precedence(String op) {
